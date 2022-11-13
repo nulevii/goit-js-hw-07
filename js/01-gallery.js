@@ -28,7 +28,7 @@ const openWindow = (event) => {
     return;
   }
   instance = basicLightbox.create(`
-    <img src=${event.target.dataset.original} style="margin: auto; position: fixed; top:50%; left:50%; transform: translate(-50%, -50%); max-width: 95vw; max-height: 95vh ">`);
+    <img src=${event.target.dataset.original} style="margin: auto; position: absolute; max-width: 95vw; max-height: 95wh ">`);
   instance.show();
 };
 
